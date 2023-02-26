@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 30s ease infinite;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+mark:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+h2:hover {
+  color: hotpink;
+  transition: all 0.3s ease-in-out;
+}
+#allItem {
+  font-family: "Tilt Prism", cursive;
+  font-size: 22px;
+  line-height: 42px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.3);
+  
+}
+/* Hover effekt */
+#allItem:hover {
+  font-family: "Tilt Prism", cursive;
+  font-size: 22px;
+  line-height: 42px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.1);
+}

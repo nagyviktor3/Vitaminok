@@ -4,9 +4,149 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Vitaminok</title>
+    <link rel="stylesheet" href="neon.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css.css">
   </head>
   <body>
-    <h1>Béla</h1>
+    <style>
+      body {
+        background-color: #000000;
+        font-family: Arial, sans-serif;
+      }
+
+      #containers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      @media screen and (max-width: 888px) {
+        #containers {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          max-width: 765px;
+          margin: 0 auto;
+          padding: 20px;
+        }
+      }
+      #allItem {
+        background-color: rgb(217, 0, 166);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        color: white;
+        /* text-align: justify; */
+        /* line-height: 26px; */
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+        width: 45%;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin-top: 0;
+        color: aliceblue;
+      }
+      mark {
+        background-color: rgb(255, 255, 255);
+        padding: 5px;
+        margin: 5px;
+      }
+      pre {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-top: 10px;
+      }
+      ::selection {
+        background-color: hsl(0deg 0% 0%);
+      }
+    </style>
+    <h2 id="neon">Vitaminok</h2>
+    <div id="containers">
+      <div id="allItem">
+        <h2>A-vitamin</h2>
+        <p>
+          <mark> Funkciója:</mark> növekedés, szürkületi látás, a szaruhártya
+          egészsége, fertőzéssel szembeni ellenállás. Hiánya fejlődési
+          zavarokat, farkasvakságot, a bőr szárazságát okozza. <br /><mark>
+            Forrásai:</mark
+          >
+          tejtermékek, halmájolajak, tojássárgája. A sárgarépában és
+          zöldségfélékben található karotint a szervezet A-vitaminná alakítja.
+        </p>
+      </div>
+      <div id="allItem">
+        <h2>B1-vitamin</h2>
+        <p>
+          <mark> Funkciója:</mark> Funkciója: szénhidrát anyagcsere: az
+          idegrendszer működése. Hiánya vizenyősödést vagy végzetes fogyással
+          járó beriberit okoz. <br /><mark> Forrásai:</mark>
+          élesztő, tojássárgája, máj, búzacsíra, borsó, bab.
+        </p>
+      </div>
+      <div id="allItem">
+        <h2>B2-vitamin</h2>
+        <p>
+          <mark> Funkciója:</mark> szövetlégzés. Hiánya a nyelv és az ajak
+          gyulladását okozza. <br /><mark> Forrásai:</mark>
+          élesztő, élesztő- és húskivonatok, tej, máj, sajt, tojás,
+          zöldségfélék.
+        </p>
+      </div>
+      <div id="allItem">
+        <h2>B12-vitamin</h2>
+        <p>
+          <mark> Funkciója:</mark> vérképződés. Hiánya vészes vérzékeny¬séget
+          okoz. <br /><mark> Forrásai:</mark>
+          élesztő, hús, máj, vese, tej, sajt, tojás, zöldségfélék.
+        </p>
+      </div>
+      <div id="allItem">
+        <h2>C-vitamin</h2>
+        <p>
+          <mark> Funkciója:</mark> energiatermelés, anyagcserefolya¬matok,
+          fertőzéssel szembeni ellenállás. Hiánya skorbutot , vérzékenységet,
+          fáradékonyságot okoz.<br /><mark> Forrásai:</mark>
+          paprika, citrom, zöldségek, gyümölcsök.
+        </p>
+      </div>
+      <div id="allItem">
+        <h2>D-vitamin</h2>
+        <p>
+          <mark> Funkciója:</mark> csontok egészséges fejlődése. Hiánya a
+          csontok görbülését, törékenységét, csontlágyulást okoz. <br /><mark>
+            Forrásai:</mark
+          >
+          vaj, halmájolaj. A növényi olajokban található előanyagot a szervezet
+          alakítja D-vitaminná napsugárzás hatására.
+        </p>
+      </div>
+      <div id="allItem">
+        <h2>E-vitamin</h2>
+        <p>
+          <mark> Funkciója:</mark> az idegrendszer, az izomzat és a here
+          normális működéséhez illetve a terhesség ki¬hordásához fontos. Hiánya
+          nem jellemző.<br /><mark> Forrásai:</mark>
+          növényi magvak és olajok, saláták, zöldfőzelékek, tej, vaj.
+        </p>
+      </div>
+      <div id="allItem">
+        <h2>K-vitamin</h2>
+        <p>
+          <mark> Funkciója:</mark> megfelelő májműködés. Hiánya nem jellemző.<br /><mark>
+            Forrásai:</mark
+          >
+          vmegfelelő májműködés. Hiánya nem jellemző.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
